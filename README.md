@@ -26,3 +26,7 @@ The data pipeline uses the assignment's fixed baseline **1 GBP = 105.50 INR**; i
 The analytics module calls `sns.load_dataset('titanic')` only in `01_eda.py`, immediately stores `analytics/titanic.csv`, and all later work reads that file. `02_modeling.py` keeps preprocessing inside scikit-learn pipelines to prevent test-set leakage.
 
 The support assistant defaults to `MOCK_LLM=1`, so its graded flow makes no LLM API calls. Local sentence-transformer embeddings and ChromaDB provide real retrieval; LangGraph routes queries to retrieval or a fixed direct response.
+
+
+Author:
+Veeranjaneya Inti
