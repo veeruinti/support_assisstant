@@ -30,3 +30,4 @@ The support assistant defaults to `MOCK_LLM=1`, so its graded flow makes no LLM 
 
 Author:
 Veeranjaneya Inti
+Associate AI/ML Engineer
